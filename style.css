@@ -151,7 +151,8 @@ img {
 }
 
 .game-over-img {
-    object-fit: cover;
+    object-fit: scale-down;
+    top: -200px;
     width: 100%;
     left: 0;
     right: 0;
@@ -223,6 +224,7 @@ img {
         height: 60px;
     }
     .game-over-img{
+        object-fit: scale-down;
         top: 100px;
     }
     .restart-btn{
